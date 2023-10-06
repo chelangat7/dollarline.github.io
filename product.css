@@ -1,0 +1,60 @@
+/* product.css */
+
+/* Style the product list container */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style each individual product */
+.product {
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style product images */
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style product titles */
+.product h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Style product descriptions */
+.product p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+/* Style product prices */
+.product p.price {
+    font-weight: bold;
+    color: #FF5733; /* Change to your desired color */
+}
+
+/* Style the "Buy Now" button */
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Change to your desired color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #0056b3; /* Change to your desired hover color */
+}

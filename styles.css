@@ -1,0 +1,145 @@
+/*  stylesheet */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('homepage.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the hero section */
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Style the products section */
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    font-size: 24px;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    /* Add responsive styles here for screens less than or equal to 768px wide */
+    header h1 {
+        font-size: 24px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .cta-button {
+        font-size: 16px;
+    }
+
+    .products {
+        padding: 20px;
+    }
+
+    .product {
+        display: block;
+        margin: 0 auto 20px;
+    }
+
+    .product img {
+        max-width: 80%;
+    }
+
+    .product h3 {
+        font-size: 20px;
+    }
+
+    .buy-button {
+        font-size: 14px;
+    }
+}
